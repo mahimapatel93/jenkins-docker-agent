@@ -46,6 +46,7 @@ Instead of executing builds on the Jenkins master node, the pipeline runs inside
 | (Executed Inside)    |
 +----------------------+
 ```
+---
 
 ## ⚙️ Setup Steps
 
