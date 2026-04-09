@@ -71,8 +71,11 @@ sudo systemctl restart jenkins
 
 ### 5️⃣ Install Jenkins Plugins
 
+* Blue Ocean
+* Pipeline: Stage View Plugin
+* Docker Pipeline
 * Docker Plugin
-* Docker Pipeline Plugin
+  
 
 ---
 
