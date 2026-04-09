@@ -26,26 +26,26 @@ Instead of executing builds on the Jenkins master node, the pipeline runs inside
 ---
 
 ## ⚙️ Architecture Diagram
-    +----------------------+
-    |    Jenkins Server    |
-    |   (Master Node)      |
-    +----------+-----------+
-               |
-               | Creates Agent
-               ↓
-    +----------------------+
-    |   Docker Container   |
-    | (Jenkins Agent)      |
-    +----------+-----------+
-               |
-               ↓
-    +----------------------+
-    |   Pipeline Stages    |
-    | (Executed Inside)    |
-    +----------------------+
 
- ---   
-
+```
++----------------------+
+|    Jenkins Server    |
+|   (Master Node)      |
++----------+-----------+
+           |
+           | Creates Agent
+           ↓
++----------------------+
+|   Docker Container   |
+| (Jenkins Agent)      |
++----------+-----------+
+           |
+           ↓
++----------------------+
+|   Pipeline Stages    |
+| (Executed Inside)    |
++----------------------+
+```
 
 ## ⚙️ Setup Steps
 
