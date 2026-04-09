@@ -1,9 +1,9 @@
 # 🚀 Jenkins Pipeline Using Docker Agent
 
-## 📌 Project Overview
+## 📌 Task Overview
 
-This project demonstrates how to configure **Jenkins to use Docker containers as build agents**.
-Instead of running jobs on the Jenkins master node, the pipeline executes inside dynamically created Docker containers.
+This task demonstrates how to configure Jenkins to run pipeline stages inside a Docker container using Docker as a dynamic agent.
+Instead of executing builds on the Jenkins master node, the pipeline runs inside automatically created Docker containers.
 
 ---
 
@@ -187,7 +187,7 @@ jenkins/inbound-agent   Up XX seconds
 
 ## 💬 Conclusion
 
-This setup ensures that Jenkins pipelines run in **containerized environments**, improving scalability, flexibility, and reliability of builds.
+This task helped in understanding how Jenkins pipelines can run inside Docker containers using dynamic agents, which is a common practice in modern DevOps workflows.
 
 ---
 
